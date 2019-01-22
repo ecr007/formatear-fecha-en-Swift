@@ -4,9 +4,9 @@
 
 ```swift
 
-    let dateFormatter = DateFormatter()
-    dateFormatter.timeStyle = .short
-    
-    let strDate:String = dateFormatter.string(from: UIDatePicker.date)
+let dateFormatter = DateFormatter()
+dateFormatter.timeStyle = .short
+
+let strDate:String = dateFormatter.string(from: UIDatePicker.date)
     
 ```
